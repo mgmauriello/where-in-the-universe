@@ -66,6 +66,25 @@ body {
     }
   }
 
+.card-blur {
+  margin-right: auto;
+  margin-left: auto;
+  width: 250px;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  height: 300px;
+  border-radius: 5px;
+  backdrop-filter: blur(14px);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 1px 16px white
+}
+img {
+  width: 150px;
+  height: auto;
+}
+
 .App {
   text-align: center;
 }
@@ -77,13 +96,13 @@ body {
 
 header {
   height: 50px;
-  background-color: #343a40;
-  margin: 0;
+  background-color: rgba(128, 0, 128, 0.1) center / 200px 200px round;  margin: 0;
   line-height: 50px;
-  font-weight: 300;
+  font-weight: 750;
   display: flex;
   justify-content: space-between;
   padding: 0 0.625rem;
+  text-shadow: 2px 1px 10px white
 }
 
 a {
@@ -99,9 +118,9 @@ footer {
   bottom: 0;
   width: 100%;
   line-height: 30px;
-  background-color: #343a40;
   color: white;
   text-align: center;
+  text-shadow: 2px 1px 10px white
 }
 
 @media (prefers-reduced-motion: no-preference) {
